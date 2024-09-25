@@ -1,9 +1,11 @@
 // menu button
 const historyBtn = document.getElementById('history-btn');
 const donationBtn = document.getElementById('donation-btn');
+
 // sections
 const donationSec =  document.getElementById('donation-sec');
 const historySec = document.getElementById('history-sec');
+
 // donation buttons
 const noakhaliBtn = document.getElementById('noakhali-btn')
 const feniBtn = document.getElementById('feni-btn')
@@ -37,7 +39,6 @@ donationBtn.addEventListener('click',function(){
 
 // donation handles all
 
-// noakhali
 noakhaliBtn.addEventListener('click',function(){
     
     const myBalance = getBalance('my-balance')
@@ -50,7 +51,7 @@ noakhaliBtn.addEventListener('click',function(){
 })
 
 
-// feni
+
 feniBtn.addEventListener('click',function(){
     
     const myBalance = getBalance('my-balance')
@@ -63,7 +64,6 @@ feniBtn.addEventListener('click',function(){
 })
 
 
-// quota
 quotaBtn.addEventListener('click',function(){
     
     const myBalance = getBalance('my-balance')
